@@ -90,21 +90,24 @@ function App() {
         
       </div>
 
-      <div style={{ marginTop: 10, backgroundColor: "black", height:200, }}>
+      <div style={{ marginTop: 10, backgroundColor: "black", height:400,display: "flex" }}>
         <h4 style={{color:"white",paddingTop:30, paddingLeft:60 }}>contact us!</h4>
         
-        
-      </div>
-      {/* <div>
-        <h2>Contact us form</h2>
-      <form>
-        <input placeholder='email' >email</input>
-        <input placeholder='details'>details</input>
-        <input placeholder='message'>message</input>
+        <div style={{display: "flex", flexDirection:"column",paddingTop:30, paddingLeft:60, paddingRight:20, backgroundColor: "white",}}>
+        <h2 style={{color:'blue'}}>Contact us form</h2>
+        <div style={{display: "flex", flexDirection:"column", justifyContent:"space-around", backgroundColor: "purple"}}>
+      <form style={{ justifyContent:"space-between", backgroundColor: "purple"}}>
+        <input placeholder='email'/>
+        <input placeholder='details'/>
+        <input placeholder='message'/>
         <button>Contact us</button>
       </form>
+      </div>
 
-      </div> */}
+      </div>
+      
+        
+      </div>
       
     </div>
   )
