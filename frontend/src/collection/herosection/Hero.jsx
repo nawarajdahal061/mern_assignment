@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div style={{marginTop:20}}>
+    <div style={{}}>
       <div style={{display: "flex",
         flexDirection: "row",
-        backgroundColor:"", }}>
+        backgroundColor:"",paddingTop:37 }}>
 
 
       <div 

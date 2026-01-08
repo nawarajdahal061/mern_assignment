@@ -3,17 +3,17 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div style={{ }}>
-      <div style={{  backgroundColor: "white", position: "fixed",t0p:0, left:0, right:0  }}>
+      <div style={{  backgroundColor: "white", position: "fixed",t0p:0, left:0, right:0, }}>
         <header style={{ display: "flex", justifyContent: "space-around" }}>
 
-          <div style={{ backgroundColor: "black", height:50, width:110}}>
+          <div style={{ backgroundColor: "", height:50, width:110,paddingTop:4}}>
             <a>
           <img src="/logofinal.png" style={{ height: "50px", width: "120px"}} ></img>
           
         </a>
         
           </div>
-          <ul style={{ display: "flex",flexDirection: "row", listStyle: "none", gap: 10, cursor: 'pointer',}}>
+          <ul style={{ display: "flex",flexDirection: "row", listStyle: "none", gap: 10, cursor: 'pointer',paddingTop:18}}>
             <li><a style={{textDecorationLine: "none", color: "black", }} href="#">🇭​​🇴​​🇲​​🇪</a></li>
             <li><a style={{ color: "black"}}>🇫​​🇮​​🇳​​🇩​ ​🇩​​🇴​​🇨​​🇹​​🇴​​🇷​​🇸</a></li>
             <li><a style={{ color: "black"}}>🇦​​🇧​​🇴​​🇺​​🇹​ ​🇺​​🇸​</a></li>
