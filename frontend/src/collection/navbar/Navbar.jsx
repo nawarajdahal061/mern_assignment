@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
         
           </div>
           <ul style={{ display: "flex",flexDirection: "row", listStyle: "none", gap: 10, cursor: 'pointer',paddingTop:18}}>
-            <li><a style={{textDecorationLine: "none", color: "black", }} href="#">🇭​​🇴​​🇲​​🇪</a></li>
+            <li><Link to={'/'} style={{textDecorationLine: "none", color: "black", }} href="#">🇭​​🇴​​🇲​​🇪</Link></li>
             <li><a style={{ color: "black"}}>🇫​​🇮​​🇳​​🇩​ ​🇩​​🇴​​🇨​​🇹​​🇴​​🇷​​🇸</a></li>
             <li><a style={{ color: "black"}}>🇦​​🇧​​🇴​​🇺​​🇹​ ​🇺​​🇸​</a></li>
             <li><a style={{ color: "black"}}>🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ ​🇺​​🇸​</a></li>
@@ -22,14 +23,26 @@ const Navbar = () => {
 
 
           </ul>
+
+          <Link to={'/Login'}>
           <button  style={{ backgroundColor: "black",
              color: "white",
                borderRadius: "32px",
-               padding:1 ,
+               padding:1,
+                height: "25px",
+                 margin: "17px",paddingLeft:0,
+                 width:60 }}>Login​</button>
+</Link>
+
+   <Link to={'/SignUp'}>
+          <button  style={{ backgroundColor: "indigo",
+             color: "white",
+               borderRadius: "32px",
+               paddingLeft:1 ,
                 height: "25px",
                  margin: "17px",
-                 width:60 }}>​Sign up​</button>
-
+                 width:60 }}>SignUp​</button>
+</Link>
 
 
         </header>
